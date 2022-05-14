@@ -8,9 +8,9 @@ console.log("This will be shown first")
 // console.log(a.toString())
 // console.log("This will be shown last")
 
-fs.writeFile('blank.js', "This is a bhomdu", ()=>{
+fs.writeFile('blank.js', "This is a good", ()=>{
     console.log("Written to the file")
 });
 // console.log("This will be shown first")
-const b= fs.writeFileSync('blank2.js', "This is a bhomdu too");
+const b= fs.writeFileSync('blank2.js', "This is a good too");
 console.log(b)
